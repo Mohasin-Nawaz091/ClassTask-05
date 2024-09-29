@@ -39,3 +39,16 @@
     cursor: pointer;
     border-radius: 8px;
   }
+  .results {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+  }
+  .box {
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+    width: 140px;
+    border-radius: 12px;
+ }
+  
