@@ -1,25 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Age Calculator</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <input type="date" id="birthdate">
-        <button onclick="calculateAge()">Calculate</button>
-        <div id="result">
-            <div class="output">
-                <p>Years: <span id="years"></span></p>
-            </div>
-            <div class="output">
-                <p>Months: <span id="months"></span></p>
-            </div>
-            <div class="output">
-                <p>Days: <span id="days"></span></p>
-            </div>
-        </div>
+  <div class="container">
+    <div class="calculator">
+      <input type="date" id="dob" placeholder="DD-MM-YYYY">
+      <button id="calculate">Calculate</button>
     </div>
-    <script src="script.js"></script>
+    <div class="results">
+      <div class="box">
+        <h2 id="years">0</h2>
+        <p>Years</p>
+      </div>
+      <div class="box">
+        <h2 id="months">0</h2>
+        <p>Months</p>
+      </div>
+      <div class="box">
+        <h2 id="days">0</h2>
+        <p>Days</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
