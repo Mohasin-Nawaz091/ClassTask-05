@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(48, 48, 236);
+}
+.blback {
+    background-color: black;
+    position: relative;
+    align-items: flex-end;
+    align-items: inline;
+
+}
